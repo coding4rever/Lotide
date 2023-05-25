@@ -1,0 +1,23 @@
+{
+  "name": "@coding4rever/lotide",
+  "version": "1.0.1",
+  "description": "https://docs.npmjs.com/files/package.json#description-1",
+  "main": "assertObjectsEqual.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coding4rever/Lotide.git"
+  },
+  "author": "https://docs.npmjs.com/files/package.json#people-fields-author-contributors",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coding4rever/Lotide/issues"
+  },
+  "homepage": "https://github.com/coding4rever/Lotide#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^9.2.2"
+  }
+}
