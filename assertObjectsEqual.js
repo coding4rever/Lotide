@@ -1,7 +1,4 @@
-const assertEqual = require('./assertEqual');
-const assertArraysEqual = require('./assertArraysEqual');
-const eqArrays = require('./eqArrays');
-const eqObjects = require('./eqObjects')
+const eqObjects = require("./eqObjects");
 
 // FUNCTION IMPLEMENTATION
 const assertObjectsEqual = function (actual, expected) {
@@ -23,3 +20,5 @@ assertObjectsEqual = function (actual, expected) {
 };
 
 console.log(`Example label: ${inspect(actual)}`);
+
+module.exports = assertObjectsEqual;

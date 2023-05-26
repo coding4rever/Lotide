@@ -6,10 +6,9 @@ const middle = (element) => {
   } else if (element.length === 1 || element.length % 2 === 0) {
     return [];
   } else {
-    let half = (element.length - 1 )/ 2;
-    return (element[half]);
-    }
-  };
+    let half = (element.length - 1) / 2;
+    return element[half];
+  }
+};
 
-  module.exports = middle
-  
+module.exports = middle;

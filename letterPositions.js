@@ -1,4 +1,4 @@
-const letterPositions = function(sentence) {
+const letterPositions = function (sentence) {
   const results = {};
   let index = 0;
   for (const letter of sentence) {
@@ -14,8 +14,8 @@ const letterPositions = function(sentence) {
   return results;
 };
 
-const eqArrays = require('./eqArrays');
+const eqArrays = require("./eqArrays");
 
-const assertArraysEqual = require('./assertArraysEqual')
+const assertArraysEqual = require("./assertArraysEqual");
 
 module.exports = letterPositions;
